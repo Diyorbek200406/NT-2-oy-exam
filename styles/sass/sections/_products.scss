@@ -1,4 +1,4 @@
-section#puppy {
+section#products {
   width: 1440px;
   padding: 70px 130px;
   position: relative;
@@ -41,7 +41,7 @@ section#puppy {
   }
 }
 
-section#puppy .container {
+section#products .container {
   width: 100%;
   height: 100%;
   display: grid;
@@ -52,7 +52,7 @@ section#puppy .container {
   margin: 0 auto;
 }
 
-section#puppy .container .puppy {
+section#products .container .puppy {
   background: #fdfdfd;
   box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
   border-radius: 12px;
@@ -66,7 +66,7 @@ section#puppy .container .puppy {
   }
   h3 {
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 24px;
     color: #00171f;
     padding-top: 8px;
@@ -78,5 +78,35 @@ section#puppy .container .puppy {
     color: #667479;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  h4 {
+    width: 148px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #002a48;
+  }
+  .div {
+    display: flex;
+    padding: 6px 10px 4px;
+    align-items: center;
+    justify-content: start;
+    gap: 2px;
+    width: 248px;
+    height: 34px;
+    background: #fceed5;
+    border-radius: 8px;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+    .dumaloq {
+      width: 4px;
+      height: 4px;
+      background: #003459;
+      border-radius: 10px;
+      margin: 5px;
+    }
   }
 }
