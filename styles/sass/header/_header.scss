@@ -11,6 +11,10 @@ header {
     #ffe7ba 104.24%
   );
   border-radius: 0px 0px 40px 40px;
+  .lupa,
+  .lupa1 {
+    display: none;
+  }
   .log {
     position: absolute;
     top: 30px;
@@ -242,5 +246,3 @@ header nav .english {
     background-color: transparent;
   }
 }
-
-
