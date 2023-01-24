@@ -8,7 +8,7 @@ section#adoption .container {
   width: 1180px;
   height: 378px;
   display: flex;
-  background: #ffb775;
+  background: $yel-color;
   border-radius: 20px;
   position: relative;
   .adop1 {
@@ -34,7 +34,7 @@ section#adoption .container .left {
     font-size: 52px;
     line-height: 68px;
     text-transform: capitalize;
-    color: #003459;
+    color: $bluu-color;
     display: inline;
     margin-right: 10px;
   }
@@ -42,14 +42,14 @@ section#adoption .container .left {
     font-weight: 700;
     font-size: 33px;
     line-height: 54px;
-    color: #003459;
+    color: $bluu-color;
     text-transform: capitalize;
   }
   p {
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
-    color: #242b33;
+    color: $blu-color;
   }
   .botton {
     display: flex;
@@ -60,14 +60,14 @@ section#adoption .container .left {
     top: 42px;
     z-index: 4;
     .button1 {
-      background: #003459;
-      color: #fdfdfd;
+      background: $bluu-color;
+      color: $white-color;
       cursor: pointer;
     }
     button {
       width: 163px;
       height: 48px;
-      color: #003459;
+      color: $bluu-color;
       background: transparent;
       border-radius: 57px;
       cursor: pointer;
