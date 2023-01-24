@@ -42,7 +42,7 @@ section#puppy {
 }
 
 section#puppy .container {
-  width: 100%;
+  width: 1180px;
   height: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -53,6 +53,8 @@ section#puppy .container {
 }
 
 section#puppy .container .puppy {
+  width: 100%;
+  height: 100%;
   background: #fdfdfd;
   box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
   border-radius: 12px;

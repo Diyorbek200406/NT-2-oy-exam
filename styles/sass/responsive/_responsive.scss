@@ -1,1 +1,66 @@
+@media (max-width: 1180px) {
+  section#puppy .container {
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  section#adoption {
+    display: none;
+  }
+}
 
+@media (max-width: 834px) {
+  .container {
+    width: 414px;
+  }
+  section#puppy .container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 36px;
+    padding-top: 20px;
+    background: #fdfdfd;
+    margin: 0 auto;
+  }
+  section#explore {
+    display: none;
+  }
+  section#products {
+    display: none;
+  }
+  section#partners {
+    display: none;
+  }
+  section#adoption {
+    display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  .container {
+    width: 100%;
+  }
+  section#puppy .container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 36px;
+    padding-top: 20px;
+    background: #fdfdfd;
+    margin: 0 auto;
+  }
+  section#explore{
+    display: none;
+  }
+  section#products {
+    display: none;
+  }
+  section#partners {
+    display: none;
+  }
+  section#adoption {
+    display: none;
+  }
+}

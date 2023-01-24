@@ -259,6 +259,8 @@ button {
   }
 }
 header {
+  width: 1440px;
+  height: 695px;
   padding: 0px 130px;
   overflow: hidden;
   background: linear-gradient(102.87deg, #fceed5 6.43%, #fceed5 78.33%, #ffe7ba 104.24%);
@@ -529,7 +531,7 @@ section#puppy button p {
 }
 
 section#puppy .container {
-  width: 100%;
+  width: 1180px;
   height: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -540,6 +542,8 @@ section#puppy .container {
 }
 
 section#puppy .container .puppy {
+  width: 100%;
+  height: 100%;
   background: #fdfdfd;
   box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
   border-radius: 12px;
@@ -568,16 +572,14 @@ section#puppy .container .puppy p {
 }
 
 section#explore {
-  width: 1440px;
   padding: 20px 130px;
   position: relative;
   overflow: hidden;
-  height: 418px;
 }
 
 section#explore .container {
-  width: 100%;
-  height: 100%;
+  width: 1180px;
+  height: 378px;
   background: transparent;
   padding-top: 50px;
   display: grid;
@@ -668,7 +670,6 @@ section#explore .pup2 {
 }
 
 section#products {
-  width: 1440px;
   padding: 70px 130px;
   position: relative;
   background: #fdfdfd;
@@ -710,7 +711,7 @@ section#products button p {
 }
 
 section#products .container {
-  width: 100%;
+  width: 1180px;
   height: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -780,7 +781,6 @@ section#products .container .puppy .div .dumaloq {
 }
 
 section#partners {
-  width: 1440px;
   padding: 70px 130px;
   position: relative;
   background: #fdfdfd;
@@ -821,7 +821,7 @@ section#partners button p {
 }
 
 section#partners .container {
-  width: 100%;
+  width: 1180px;
   height: 100%;
   background: rgb(255, 255, 255);
   margin: 0 auto;
@@ -912,7 +912,6 @@ section#adoption .container .right img {
 }
 
 section#knowledge {
-  width: 1440px;
   padding: 70px 130px;
   position: relative;
 }
@@ -944,7 +943,7 @@ section#knowledge .btn p {
 }
 
 section#knowledge .container {
-  width: 100%;
+  width: 1180px;
   height: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1093,4 +1092,69 @@ footer#footer .foot-3 p {
   font-size: 14px;
   line-height: 20px;
   color: #667479;
+}
+
+@media (max-width: 1180px) {
+  section#puppy .container {
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  section#adoption {
+    display: none;
+  }
+}
+@media (max-width: 834px) {
+  .container {
+    width: 414px;
+  }
+  section#puppy .container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 36px;
+    padding-top: 20px;
+    background: #fdfdfd;
+    margin: 0 auto;
+  }
+  section#explore {
+    display: none;
+  }
+  section#products {
+    display: none;
+  }
+  section#partners {
+    display: none;
+  }
+  section#adoption {
+    display: none;
+  }
+}
+@media (max-width: 414px) {
+  .container {
+    width: 100%;
+  }
+  section#puppy .container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 36px;
+    padding-top: 20px;
+    background: #fdfdfd;
+    margin: 0 auto;
+  }
+  section#explore {
+    display: none;
+  }
+  section#products {
+    display: none;
+  }
+  section#partners {
+    display: none;
+  }
+  section#adoption {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
