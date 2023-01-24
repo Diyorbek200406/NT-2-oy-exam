@@ -101,10 +101,165 @@ section p {
   line-height: 1.8;
 }
 
+button {
+  cursor: pointer;
+}
+
+@-webkit-keyframes ldio-ptiu2in5ce {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes ldio-ptiu2in5ce {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.ldio-ptiu2in5ce div {
+  left: 138.46px;
+  top: 75.25px;
+  position: absolute;
+  -webkit-animation: ldio-ptiu2in5ce linear 1s infinite;
+          animation: ldio-ptiu2in5ce linear 1s infinite;
+  background: #1d0e0b;
+  width: 24.08px;
+  height: 18.06px;
+  border-radius: 0px/0px;
+  transform-origin: 12.04px 75.25px;
+}
+
+.ldio-ptiu2in5ce div:nth-child(1) {
+  transform: rotate(0deg);
+  -webkit-animation-delay: -0.875s;
+          animation-delay: -0.875s;
+  background: #1d0e0b;
+}
+
+.ldio-ptiu2in5ce div:nth-child(2) {
+  transform: rotate(45deg);
+  -webkit-animation-delay: -0.75s;
+          animation-delay: -0.75s;
+  background: #1d0e0b;
+}
+
+.ldio-ptiu2in5ce div:nth-child(3) {
+  transform: rotate(90deg);
+  -webkit-animation-delay: -0.625s;
+          animation-delay: -0.625s;
+  background: #1d0e0b;
+}
+
+.ldio-ptiu2in5ce div:nth-child(4) {
+  transform: rotate(135deg);
+  -webkit-animation-delay: -0.5s;
+          animation-delay: -0.5s;
+  background: #1d0e0b;
+}
+
+.ldio-ptiu2in5ce div:nth-child(5) {
+  transform: rotate(180deg);
+  -webkit-animation-delay: -0.375s;
+          animation-delay: -0.375s;
+  background: #1d0e0b;
+}
+
+.ldio-ptiu2in5ce div:nth-child(6) {
+  transform: rotate(225deg);
+  -webkit-animation-delay: -0.25s;
+          animation-delay: -0.25s;
+  background: #1d0e0b;
+}
+
+.ldio-ptiu2in5ce div:nth-child(7) {
+  transform: rotate(270deg);
+  -webkit-animation-delay: -0.125s;
+          animation-delay: -0.125s;
+  background: #1d0e0b;
+}
+
+.ldio-ptiu2in5ce div:nth-child(8) {
+  transform: rotate(315deg);
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  background: #1d0e0b;
+}
+
+.loadingio-spinner-spinner-qfo4vmmbnza {
+  width: 301px;
+  height: 301px;
+  display: inline-block;
+  overflow: hidden;
+  background: transparent;
+}
+
+.ldio-ptiu2in5ce {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+
+.ldio-ptiu2in5ce div {
+  box-sizing: content-box;
+}
+
+.load {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 20;
+  top: -100%;
+  background: linear-gradient(102.87deg, #fceed5 6.43%, #fceed5 78.33%, #ffe7ba 104.24%), #ffffff;
+  -webkit-animation: infinite;
+          animation: infinite;
+  -webkit-animation-name: load;
+          animation-name: load;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes load {
+  0% {
+    top: 0;
+  }
+  99% {
+    top: 0;
+  }
+  100% {
+    top: -100%;
+  }
+}
+
+@keyframes load {
+  0% {
+    top: 0;
+  }
+  99% {
+    top: 0;
+  }
+  100% {
+    top: -100%;
+  }
+}
 header {
-  width: 1440px;
-  height: 695px;
-  padding: 20px 130px;
+  padding: 0px 130px;
   overflow: hidden;
   background: linear-gradient(102.87deg, #fceed5 6.43%, #fceed5 78.33%, #ffe7ba 104.24%);
   border-radius: 0px 0px 40px 40px;
@@ -118,6 +273,7 @@ header .log {
 header nav {
   gap: 50px;
   align-items: center;
+  padding: 20px;
   padding-left: 120px;
 }
 header nav .lar ul {
@@ -148,10 +304,12 @@ header nav .inlar .button {
   height: 44px;
   background: #003459;
   border-radius: 57px;
+  cursor: pointer;
 }
 header nav .inlar .button button {
   border: none;
   background: none;
+  cursor: pointer;
 }
 header nav .inlar .button button p {
   color: #fdfdfd;
@@ -162,8 +320,8 @@ header nav .inlar .button button p {
 }
 
 header .container {
-  width: 100%;
-  height: 100%;
+  width: 1440px;
+  height: 695px;
   background: transparent;
   padding-top: 100px;
   display: grid;
@@ -221,18 +379,18 @@ header .container .showcase1 .botton button {
 
 header .container .rasm {
   width: 944px;
-  height: 693px;
+  height: 100%;
   position: absolute;
   z-index: 5;
-  top: 10px;
+  bottom: 0;
   left: 390px;
 }
 header .container .rasm img {
   width: 944px;
   height: 693px;
   position: absolute;
-  z-index: 5;
-  top: 10px;
+  z-index: 6;
+  bottom: 0;
   left: 0px;
 }
 
@@ -254,19 +412,19 @@ header .show2 {
 header .show3 {
   position: absolute;
   left: 599.22px;
-  top: 280px;
+  bottom: 0;
   z-index: 1;
 }
 header .show4 {
   position: absolute;
   left: 635.67px;
-  top: 210px;
+  bottom: 0;
   z-index: 1;
 }
 header .show5 {
   position: absolute;
   left: 38.33px;
-  top: 604px;
+  bottom: 0;
   z-index: 1;
 }
 header .show6 {
@@ -286,6 +444,46 @@ header .show8 {
   left: 728px;
   top: 210.68px;
   z-index: 1;
+}
+
+header nav .english {
+  display: flex;
+  align-items: center;
+}
+header nav .english .dropbtn {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+header nav .english .dropdown {
+  position: relative;
+  display: inline-block;
+}
+header nav .english .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+header nav .english .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+header nav .english .dropdown-content a:hover {
+  background-color: #ddd;
+}
+header nav .english .dropdown:hover .dropdown-content {
+  display: block;
+}
+header nav .english .dropdown:hover .dropbtn {
+  background-color: transparent;
 }
 
 section#puppy {
@@ -567,6 +765,7 @@ section#products .container .puppy .div {
   height: 34px;
   background: #fceed5;
   border-radius: 8px;
+  cursor: pointer;
 }
 section#products .container .puppy .div img {
   width: 20px;
@@ -632,15 +831,13 @@ section#partners .container {
 }
 
 section#adoption {
-  width: 1440px;
   padding: 20px 130px;
   position: relative;
-  height: 378px;
 }
 
 section#adoption .container {
-  width: 100%;
-  height: 100%;
+  width: 1180px;
+  height: 378px;
   display: flex;
   background: #ffb775;
   border-radius: 20px;
@@ -800,4 +997,100 @@ section#knowledge .container .know button p {
   font-size: 10px;
   line-height: 16px;
   color: #fdfdfd;
+}
+
+footer#footer {
+  width: 1440px;
+  height: 440px;
+  padding: 20px 130px;
+  background: linear-gradient(102.87deg, #fceed5 6.43%, #fceed5 78.33%, #ffe7ba 104.24%);
+  border-radius: 40px 40px 0px 0px;
+  position: relative;
+}
+footer#footer .foot {
+  background-color: #fff;
+}
+footer#footer .foot-1 {
+  display: grid;
+  grid-template-columns: 389px 1fr;
+  padding: 32px;
+  gap: 20px;
+  height: 136px;
+  width: 100%;
+  background: #003459;
+  border-radius: 16px;
+}
+footer#footer .foot-1 .foter-1 h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #fdfdfd;
+}
+footer#footer .foot-1 .foter-2 {
+  width: 707px;
+  height: 72px;
+  background: #ffffff;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+footer#footer .foot-1 .foter-2 input {
+  width: 508px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #99a2a5;
+  border-radius: 8px;
+  padding: 14px 28px;
+  gap: 10px;
+}
+footer#footer .foot-1 .foter-2 button {
+  width: 163px;
+  height: 48px;
+  background: #003459;
+  border-radius: 8px;
+  padding: 14px 28px 10px;
+  gap: 10px;
+  color: #fff;
+}
+footer#footer .foot-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  height: 132px;
+  background: transparent;
+}
+footer#footer .foot-2 .fetter-1 ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+footer#footer .foot-2 .fetter-1 ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #001f04;
+}
+footer#footer .foot-2 .fetter-2 {
+  display: flex;
+  gap: 40px;
+}
+footer#footer .foot-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 50px 0;
+}
+footer#footer .foot-3 span {
+  padding-right: 20px;
+}
+footer#footer .foot-3 p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667479;
 }/*# sourceMappingURL=main.css.map */

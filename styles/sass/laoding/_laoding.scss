@@ -1,0 +1,111 @@
+@keyframes ldio-ptiu2in5ce {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.ldio-ptiu2in5ce div {
+  left: 138.45999999999998px;
+  top: 75.25px;
+  position: absolute;
+  animation: ldio-ptiu2in5ce linear 1s infinite;
+  background: #1d0e0b;
+  width: 24.08px;
+  height: 18.06px;
+  border-radius: 0px / 0px;
+  transform-origin: 12.04px 75.25px;
+}
+.ldio-ptiu2in5ce div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -0.875s;
+  background: #1d0e0b;
+}
+.ldio-ptiu2in5ce div:nth-child(2) {
+  transform: rotate(45deg);
+  animation-delay: -0.75s;
+  background: #1d0e0b;
+}
+.ldio-ptiu2in5ce div:nth-child(3) {
+  transform: rotate(90deg);
+  animation-delay: -0.625s;
+  background: #1d0e0b;
+}
+.ldio-ptiu2in5ce div:nth-child(4) {
+  transform: rotate(135deg);
+  animation-delay: -0.5s;
+  background: #1d0e0b;
+}
+.ldio-ptiu2in5ce div:nth-child(5) {
+  transform: rotate(180deg);
+  animation-delay: -0.375s;
+  background: #1d0e0b;
+}
+.ldio-ptiu2in5ce div:nth-child(6) {
+  transform: rotate(225deg);
+  animation-delay: -0.25s;
+  background: #1d0e0b;
+}
+.ldio-ptiu2in5ce div:nth-child(7) {
+  transform: rotate(270deg);
+  animation-delay: -0.125s;
+  background: #1d0e0b;
+}
+.ldio-ptiu2in5ce div:nth-child(8) {
+  transform: rotate(315deg);
+  animation-delay: 0s;
+  background: #1d0e0b;
+}
+.loadingio-spinner-spinner-qfo4vmmbnza {
+  width: 301px;
+  height: 301px;
+  display: inline-block;
+  overflow: hidden;
+  background: transparent;
+}
+.ldio-ptiu2in5ce {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-ptiu2in5ce div {
+  box-sizing: content-box;
+}
+
+.load {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 20;
+  top: -100%;
+  background: linear-gradient(
+      102.87deg,
+      #fceed5 6.43%,
+      #fceed5 78.33%,
+      #ffe7ba 104.24%
+    ),
+    #ffffff;
+  animation: infinite;
+  animation-name: load;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+@keyframes load {
+  0% {
+    top: 0;
+  }
+  99% {
+    top: 0;
+  }
+  100% {
+    top: -100%;
+  }
+}
