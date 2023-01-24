@@ -6,9 +6,9 @@ header {
   position: relative;
   background: linear-gradient(
     102.87deg,
-    #fceed5 6.43%,
-    #fceed5 78.33%,
-    #ffe7ba 104.24%
+    $oq-color 6.43%,
+    $oq-color 78.33%,
+    $oqi-color 104.24%
   );
   border-radius: 0px 0px 40px 40px;
   .lupa,
@@ -93,7 +93,7 @@ header .container .showcase1 {
     font-size: 60px;
     line-height: 68px;
     text-transform: capitalize;
-    color: #002a48;
+    color: $blue-color;
     z-index: 2;
   }
   h2 {
@@ -101,14 +101,14 @@ header .container .showcase1 {
     font-size: 46px;
     line-height: 60px;
     text-transform: capitalize;
-    color: #002a48;
+    color: $blue-color;
     padding-top: 10px;
   }
   p {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #242b33;
+    color: $blu-color;
     padding-top: 20px;
     padding-bottom: 30px;
   }
@@ -118,14 +118,14 @@ header .container .showcase1 {
     gap: 20px;
     .button1 {
       background: transparent;
-      color: #003459;
+      color: $bluu-color;
       cursor: pointer;
     }
     button {
       width: 163px;
       height: 48px;
-      color: #fdfdfd;
-      background: #003459;
+      color: $white-color;
+      background: $bluu-color;
       border-radius: 57px;
       cursor: pointer;
     }

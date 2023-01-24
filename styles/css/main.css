@@ -1510,7 +1510,7 @@ section#explore .pup4 {
     width: 100%;
   }
   footer#footer .foot-1 .foter-2 {
-    background: #ffffff;
+    background: #fff;
     border-radius: 14px;
     display: flex;
     justify-content: center;
@@ -1520,7 +1520,7 @@ section#explore .pup4 {
   footer#footer .foot-1 .foter-2 input {
     width: 218px;
     height: 48px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #99a2a5;
     border-radius: 8px;
     padding: 14px 28px;
@@ -1540,7 +1540,7 @@ section#explore .pup4 {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #000;
     height: 132px;
     background: transparent;
   }
@@ -1803,7 +1803,7 @@ footer#footer {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #000000;
+    color: #000;
   }
   section#puppy h3 {
     font-weight: 700;
@@ -2027,7 +2027,7 @@ section#knowledge .container .know-2 {
   footer#footer .foot-1 .foter-2 {
     width: 330px;
     height: 102px;
-    background: #ffffff;
+    background: #fff;
     border-radius: 14px;
     display: flex;
     justify-content: center;
@@ -2038,7 +2038,7 @@ section#knowledge .container .know-2 {
   footer#footer .foot-1 .foter-2 input {
     width: 308px;
     height: 38px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #99a2a5;
     border-radius: 8px;
     padding: 14px 28px;
@@ -2059,7 +2059,7 @@ section#knowledge .container .know-2 {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #000;
     height: 132px;
     background: transparent;
   }
