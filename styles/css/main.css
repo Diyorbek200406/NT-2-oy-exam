@@ -1795,6 +1795,7 @@ footer#footer {
   section#puppy {
     padding-bottom: 80px;
     width: 414px;
+    height: 1600px;
     position: relative;
     background: #fdfdfd;
   }
