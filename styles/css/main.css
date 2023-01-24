@@ -68,6 +68,7 @@ ul {
 img {
   max-width: 100%;
   max-height: 100%;
+  height: auto;
 }
 
 a {
@@ -533,7 +534,7 @@ section#puppy button p {
 
 section#puppy .container {
   width: 1180px;
-  height: 100%;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 36px;
@@ -552,7 +553,7 @@ section#puppy .container .puppy {
 }
 section#puppy .container .puppy img {
   max-width: 100%;
-  max-height: 100%;
+  height: auto;
   width: 100%;
   border-radius: 10px;
 }
@@ -562,6 +563,8 @@ section#puppy .container .puppy h3 {
   line-height: 24px;
   color: #00171f;
   padding-top: 8px;
+  width: 100%;
+  height: auto;
 }
 section#puppy .container .puppy p {
   font-weight: 500;
@@ -950,7 +953,6 @@ section#knowledge .btn p {
 
 section#knowledge .container {
   width: 1180px;
-  height: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -983,6 +985,9 @@ section#knowledge .container .know p {
 }
 section#knowledge .container .know img {
   border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
 }
 section#knowledge .container .know button {
   width: 109px;
@@ -1025,15 +1030,19 @@ footer#footer .foot-1 {
   background: #003459;
   border-radius: 16px;
 }
+footer#footer .foot-1 .foter-1 {
+  width: 100%;
+}
 footer#footer .foot-1 .foter-1 h3 {
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
   text-transform: capitalize;
   color: #fdfdfd;
+  width: 100%;
 }
 footer#footer .foot-1 .foter-2 {
-  width: 707px;
+  width: 100%;
   height: 72px;
   background: #ffffff;
   border-radius: 14px;
@@ -1098,4 +1107,144 @@ footer#footer .foot-3 p {
   font-size: 14px;
   line-height: 20px;
   color: #667479;
+}
+
+@media (min-width: 834px) {
+  section {
+    background-color: red;
+  }
+  header {
+    width: 100vw;
+  }
+}
+@media (max-width: 834px) {
+  section {
+    background-color: blue;
+  }
+}
+@media (max-width: 414px) {
+  section {
+    background-color: rgb(229, 255, 0);
+    width: 414px;
+    height: auto;
+  }
+  section#puppy .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  section#puppy .container h3 {
+    font-size: 79px;
+    color: #00171f;
+  }
+  section#puppy .container p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #667479;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  section#knowledge .container {
+    grid-template-columns: 100%;
+  }
+  section#products {
+    display: none;
+  }
+  section#partners {
+    display: none;
+  }
+  section#adoption {
+    display: none;
+  }
+  footer#footer {
+    height: 840px;
+    padding: 20px 130px;
+  }
+  footer#footer .foot-1 {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 32px;
+    gap: 20px;
+    width: 100%;
+    height: 400px;
+    background: #003459;
+    border-radius: 16px;
+  }
+  footer#footer .foot-1 .foter-1 {
+    width: 100%;
+    height: 100%;
+  }
+  footer#footer .foot-1 .foter-1 h3 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #fdfdfd;
+    width: 100%;
+  }
+  footer#footer .foot-1 .foter-2 {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 14px;
+  }
+  footer#footer .foot-1 .foter-2 input {
+    width: 100%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #99a2a5;
+    border-radius: 8px;
+    padding: 14px 28px;
+    gap: 10px;
+  }
+  footer#footer .foot-1 .foter-2 button {
+    width: 100%;
+    height: 70px;
+    background: #003459;
+    border-radius: 8px;
+    padding: 14px 28px 10px;
+    gap: 10px;
+    color: #fff;
+  }
+  footer#footer .foot-2 {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    height: 132px;
+    background: transparent;
+  }
+  footer#footer .foot-2 .fetter-1 ul {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+  }
+  footer#footer .foot-2 .fetter-1 ul li a {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 24px;
+    color: #001f04;
+  }
+  footer#footer .foot-2 .fetter-2 {
+    display: flex;
+    gap: 80px;
+  }
+  footer#footer .foot-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  footer#footer .foot-3 span {
+    padding-right: 20px;
+  }
+  footer#footer .foot-3 p {
+    font-weight: 500;
+    padding: 50px 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667479;
+  }
 }/*# sourceMappingURL=main.css.map */

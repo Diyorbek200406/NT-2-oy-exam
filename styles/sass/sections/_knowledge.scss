@@ -35,7 +35,7 @@ section#knowledge {
 
 section#knowledge .container {
   width: 1180px;
-  height: 100%;
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -67,6 +67,9 @@ section#knowledge .container .know {
   }
   img {
     border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
   }
   button {
     width: 109px;

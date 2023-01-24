@@ -43,7 +43,7 @@ section#puppy {
 
 section#puppy .container {
   width: 1180px;
-  height: 100%;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 36px;
@@ -62,7 +62,7 @@ section#puppy .container .puppy {
 
   img {
     max-width: 100%;
-    max-height: 100%;
+    height: auto;
     width: 100%;
     border-radius: 10px;
   }
@@ -72,6 +72,8 @@ section#puppy .container .puppy {
     line-height: 24px;
     color: #00171f;
     padding-top: 8px;
+    width: 100%;
+    height: auto;
   }
   p {
     font-weight: 500;
