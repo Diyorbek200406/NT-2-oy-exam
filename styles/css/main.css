@@ -1691,7 +1691,7 @@ footer#footer {
     z-index: 1;
   }
   header .container {
-    padding-top: 40px;
+    padding-top: 60px;
     width: 374px;
     height: 750px;
     background: transparent;
@@ -1795,7 +1795,7 @@ footer#footer {
   section#puppy {
     padding-bottom: 80px;
     width: 414px;
-    height: 1600px;
+    height: 1530px;
     position: relative;
     background: #fdfdfd;
   }
