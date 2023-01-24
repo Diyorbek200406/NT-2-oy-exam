@@ -1132,7 +1132,8 @@ footer#footer {
   header {
     width: 834px;
     position: relative;
-    height: 800px;
+    height: 700px;
+    overflow: hidden;
     background: linear-gradient(102.87deg, #fceed5 6.43%, #fceed5 78.33%, #ffe7ba 104.24%);
     border-radius: 0px 0px 40px 40px;
   }
@@ -1187,14 +1188,14 @@ footer#footer {
   header .show3 {
     position: absolute;
     left: 229.22px;
-    bottom: 60px;
+    bottom: 0px;
     z-index: 1;
     width: 400px;
   }
   header .show4 {
     position: absolute;
     left: 255.67px;
-    bottom: 60px;
+    bottom: 0px;
     z-index: 1;
     width: 400px;
   }
@@ -1227,6 +1228,7 @@ footer#footer {
   header .container {
     padding-top: 40px;
     width: 574px;
+    height: 700px;
     background: transparent;
     display: grid;
     grid-template-columns: 100%;
@@ -1579,9 +1581,6 @@ section#knowledge .container .know-2 {
   }
 }
 @media (max-width: 414px) {
-  section {
-    background-color: rgb(229, 255, 0);
-  }
   header,
 section#puppy,
 section#explore,
@@ -1589,9 +1588,6 @@ section#knowledge,
 footer#footer {
     width: 414px;
     overflow: auto;
-  }
-  section#puppy .container {
-    grid-template-columns: repeat(2, 1fr);
   }
   section#puppy .container h3 {
     font-size: 79px;
@@ -1605,8 +1601,171 @@ footer#footer {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  section#puppy {
+    padding: 1px;
+  }
+  section#puppy h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #003459;
+    text-transform: capitalize;
+    padding-left: 20px;
+  }
+  section#puppy .container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 394px;
+    margin: 0 auto;
+    gap: 10px;
+  }
+  section#puppy {
+    padding-bottom: 80px;
+    width: 414px;
+    position: relative;
+    background: #fdfdfd;
+  }
+  section#puppy p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+  }
+  section#puppy h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #003459;
+    text-transform: capitalize;
+  }
+  section#puppy button {
+    position: absolute;
+    width: 374px;
+    height: 44px;
+    border-radius: 57px;
+    border: 1.5px solid #003459;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 1460px;
+    left: 20px;
+  }
+  section#puppy button p {
+    color: #003459;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 20px;
+  }
+  section#puppy .container .puppy {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
   section#knowledge .container {
     grid-template-columns: 100%;
+  }
+  section#explore {
+    width: 414px;
+    padding: 20px 130px;
+    position: relative;
+    overflow: hidden;
+  }
+  section#explore .container {
+    width: 374px;
+    height: 640px;
+    background: transparent;
+    display: grid;
+    position: relative;
+    overflow: hidden;
+    background: #003459;
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+  section#explore .container .ex1 img {
+    position: absolute;
+    z-index: 5;
+    bottom: 0px;
+  }
+  section#explore .container .ex2 {
+    height: 100%;
+    width: 360px;
+    position: relative;
+    left: -70px;
+    z-index: 5;
+    text-align: center;
+  }
+  section#explore .container .ex2 h1 {
+    position: relative;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #002a48;
+    z-index: 35;
+    text-align: center;
+  }
+  section#explore .container .ex2 h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #002a48;
+    z-index: 2;
+    position: relative;
+  }
+  section#explore .container .ex2 p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    z-index: 2;
+    color: #242b33;
+    position: relative;
+    text-align: center;
+  }
+  section#explore .container .ex2 .botton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    justify-content: end;
+    z-index: 4;
+  }
+  section#explore .container .ex2 .botton .button1 {
+    background: transparent;
+    color: #003459;
+    cursor: pointer;
+  }
+  section#explore .container .ex2 .botton button {
+    width: 163px;
+    height: 48px;
+    color: #fdfdfd;
+    background: #003459;
+    border-radius: 57px;
+    cursor: pointer;
+  }
+  section#explore {
+    overflow: hidden;
+  }
+  section#explore .pup1 {
+    display: none;
+  }
+  section#explore .pup2 {
+    position: absolute;
+    left: 130px;
+    bottom: 0;
+    width: 500px;
+    z-index: 2;
+    border-bottom-left-radius: 20px;
+    bottom: 20px;
+  }
+  section#explore .pup3 {
+    display: block;
+    position: absolute;
+    left: 130px;
+    top: 20px;
+    z-index: 2;
   }
   section#products {
     display: none;
@@ -1616,6 +1775,35 @@ footer#footer {
   }
   section#adoption {
     display: none;
+  }
+  section#knowledge {
+    width: 414px;
+    padding: 70px 20px;
+    position: relative;
+  }
+  section#knowledge .container {
+    width: 374px;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  section#knowledge .container .know-3,
+section#knowledge .container .know-2 {
+    display: block;
+  }
+  section#knowledge .btn {
+    position: absolute;
+    width: 374px;
+    height: 44px;
+    border-radius: 57px;
+    border: 1.5px solid #003459;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1535px;
+    left: auto;
+    right: 20px;
   }
   footer#footer {
     width: 414px;
@@ -1668,6 +1856,7 @@ footer#footer {
     border-radius: 8px;
     padding: 14px 28px;
     gap: 10px;
+    margin-bottom: 5px;
   }
   footer#footer .foot-1 .foter-2 button {
     width: 308px;

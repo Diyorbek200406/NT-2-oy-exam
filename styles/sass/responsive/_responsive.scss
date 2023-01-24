@@ -25,7 +25,8 @@
   header {
     width: 834px;
     position: relative;
-    height: 800px;
+    height: 700px;
+    overflow: hidden;
     background: linear-gradient(
       102.87deg,
       #fceed5 6.43%,
@@ -85,14 +86,14 @@
     .show3 {
       position: absolute;
       left: 229.22px;
-      bottom: 60px;
+      bottom: 0px;
       z-index: 1;
       width: 400px;
     }
     .show4 {
       position: absolute;
       left: 255.67px;
-      bottom: 60px;
+      bottom: 0px;
       z-index: 1;
       width: 400px;
     }
@@ -127,6 +128,7 @@
   header .container {
     padding-top: 40px;
     width: 574px;
+    height: 700px;
     background: transparent;
     display: grid;
     grid-template-columns: 100%;
@@ -528,10 +530,6 @@
   // footer
 }
 @media (max-width: 414px) {
-  section {
-    background-color: rgb(229, 255, 0);
-  }
-
   //   sectionlar width larini o'zgartirish
 
   header,
@@ -548,7 +546,6 @@
   // gridlar puppy section
 
   section#puppy .container {
-    grid-template-columns: repeat(2, 1fr);
     h3 {
       font-size: 79px;
       color: #00171f;
@@ -563,12 +560,188 @@
     }
   }
   // 2-chi
+  //   puppy
+
+  section#puppy {
+    padding: 1px;
+    h3 {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 36px;
+      color: #003459;
+      text-transform: capitalize;
+      padding-left: 20px;
+    }
+  }
+
+  section#puppy .container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 394px;
+    margin: 0 auto;
+    gap: 10px;
+  }
+
+  section#puppy {
+    padding-bottom: 80px;
+    width: 414px;
+    position: relative;
+    background: #fdfdfd;
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+    }
+    h3 {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      color: #003459;
+      text-transform: capitalize;
+    }
+    button {
+      position: absolute;
+      width: 374px;
+      height: 44px;
+      border-radius: 57px;
+      border: 1.5px solid #003459;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      top: 1460px;
+      left: 20px;
+
+      p {
+        color: #003459;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+  section#puppy .container .puppy {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+  //   puppy
 
   section#knowledge .container {
     grid-template-columns: 100%;
   }
 
   // gridlar puppy section
+
+  //   explore
+
+  section#explore {
+    width: 414px;
+    padding: 20px 130px;
+    position: relative;
+    overflow: hidden;
+  }
+  section#explore .container {
+    width: 374px;
+    height: 640px;
+    background: transparent;
+    display: grid;
+    position: relative;
+    overflow: hidden;
+    background: #003459;
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+  section#explore .container .ex1 {
+    img {
+      position: absolute;
+      z-index: 5;
+      bottom: 0px;
+    }
+  }
+  section#explore .container .ex2 {
+    height: 100%;
+    width: 360px;
+    position: relative;
+    left: -70px;
+    z-index: 5;
+    text-align: center;
+    h1 {
+      position: relative;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 28px;
+      text-transform: capitalize;
+      color: #002a48;
+      z-index: 35;
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 28px;
+      text-transform: capitalize;
+      color: #002a48;
+      z-index: 2;
+      position: relative;
+    }
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 16px;
+      z-index: 2;
+      color: #242b33;
+      position: relative;
+      text-align: center;
+    }
+    .botton {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      justify-content: end;
+      z-index: 4;
+      .button1 {
+        background: transparent;
+        color: #003459;
+        cursor: pointer;
+      }
+      button {
+        width: 163px;
+        height: 48px;
+        color: #fdfdfd;
+        background: #003459;
+        border-radius: 57px;
+        cursor: pointer;
+      }
+    }
+  }
+  section#explore {
+    overflow: hidden;
+    .pup1 {
+      display: none;
+    }
+    .pup2 {
+      position: absolute;
+      left: 130px;
+      bottom: 0;
+      width: 500px;
+      z-index: 2;
+      border-bottom-left-radius: 20px;
+      bottom: 20px;
+    }
+    .pup3 {
+      display: block;
+      position: absolute;
+      left: 130px;
+      top: 20px;
+      z-index: 2;
+    }
+  }
+
+  //   explore
 
   //   display none bo'ladi
   section#products {
@@ -582,6 +755,45 @@
   }
 
   //   display none bo'ladi
+
+  //   knowledge start
+  //   knowledge
+
+  section#knowledge {
+    width: 414px;
+    padding: 70px 20px;
+    position: relative;
+  }
+
+  section#knowledge .container {
+    width: 374px;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 20px;
+    padding-top: 20px;
+    .know-3,
+    .know-2 {
+      display: block;
+    }
+  }
+  //   knowledge
+
+  section#knowledge {
+    .btn {
+      position: absolute;
+      width: 374px;
+      height: 44px;
+      border-radius: 57px;
+      border: 1.5px solid #003459;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 1535px;
+      left: auto;
+      right: 20px;
+    }
+  }
+  //   knowledge end
 
   // footer
 
@@ -637,6 +849,7 @@
             border-radius: 8px;
             padding: 14px 28px;
             gap: 10px;
+            margin-bottom: 5px;
           }
           button {
             width: 308px;
@@ -700,107 +913,5 @@
     }
   }
 
-  // footer
-  //   footer
-
-  //   footer#footer {
-  //     height: 840px;
-  //     padding: 20px 130px;
-  //     .foot {
-  //       &-1 {
-  //         display: grid;
-  //         grid-template-columns: 100%;
-  //         padding: 32px;
-  //         gap: 20px;
-  //         width: 100%;
-  //         height: 400px;
-  //         background: #003459;
-  //         border-radius: 16px;
-  //         .foter-1 {
-  //           width: 100%;
-  //           height: 100%;
-  //           h3 {
-  //             font-weight: 700;
-  //             font-size: 34px;
-  //             line-height: 36px;
-  //             text-transform: capitalize;
-  //             color: #fdfdfd;
-  //             width: 100%;
-  //           }
-  //         }
-  //         .foter-2 {
-  //           width: 100%;
-  //           height: 100%;
-  //           background: #ffffff;
-  //           border-radius: 14px;
-  //           input {
-  //             width: 100%;
-  //             height: 70px;
-  //             background: #ffffff;
-  //             border: 1px solid #99a2a5;
-  //             border-radius: 8px;
-  //             padding: 14px 28px;
-  //             gap: 10px;
-  //           }
-  //           button {
-  //             width: 100%;
-  //             height: 70px;
-  //             background: #003459;
-  //             border-radius: 8px;
-  //             padding: 14px 28px 10px;
-  //             gap: 10px;
-  //             color: #fff;
-  //           }
-  //         }
-  //       }
-  //       &-2 {
-  //         flex-direction: column;
-  //         width: 100%;
-  //         height: 100%;
-  //         display: flex;
-  //         align-items: center;
-  //         justify-content: space-between;
-  //         border-bottom: 1px solid black;
-  //         height: 132px;
-  //         background: transparent;
-  //         .fetter-1 {
-  //           ul {
-  //             display: flex;
-  //             align-items: center;
-  //             gap: 160px;
-  //             li {
-  //               a {
-  //                 font-weight: 500;
-  //                 font-size: 36px;
-  //                 line-height: 24px;
-  //                 color: #001f04;
-  //               }
-  //             }
-  //           }
-  //         }
-  //         .fetter-2 {
-  //           display: flex;
-  //           gap: 80px;
-  //         }
-  //       }
-  //       &-3 {
-  //         display: flex;
-  //         align-items: center;
-  //         flex-direction: column;
-  //         padding: 50px 0;
-  //         span {
-  //           padding-right: 20px;
-  //         }
-  //         p {
-  //           font-weight: 500;
-  //           padding: 50px 0;
-  //           font-size: 14px;
-  //           line-height: 20px;
-  //           color: #667479;
-  //         }
-  //       }
-  //     }
-  //   }
-
-  // footer
+  // footer tugadi
 }
