@@ -263,6 +263,7 @@ header {
   height: 695px;
   padding: 0px 130px;
   overflow: hidden;
+  position: relative;
   background: linear-gradient(102.87deg, #fceed5 6.43%, #fceed5 78.33%, #ffe7ba 104.24%);
   border-radius: 0px 0px 40px 40px;
 }
@@ -572,6 +573,7 @@ section#puppy .container .puppy p {
 }
 
 section#explore {
+  width: 1440px;
   padding: 20px 130px;
   position: relative;
   overflow: hidden;
@@ -670,6 +672,7 @@ section#explore .pup2 {
 }
 
 section#products {
+  width: 1440px;
   padding: 70px 130px;
   position: relative;
   background: #fdfdfd;
@@ -781,6 +784,7 @@ section#products .container .puppy .div .dumaloq {
 }
 
 section#partners {
+  width: 1440px;
   padding: 70px 130px;
   position: relative;
   background: #fdfdfd;
@@ -831,6 +835,7 @@ section#partners .container {
 }
 
 section#adoption {
+  width: 1440px;
   padding: 20px 130px;
   position: relative;
 }
@@ -912,6 +917,7 @@ section#adoption .container .right img {
 }
 
 section#knowledge {
+  width: 1440px;
   padding: 70px 130px;
   position: relative;
 }
@@ -1092,69 +1098,4 @@ footer#footer .foot-3 p {
   font-size: 14px;
   line-height: 20px;
   color: #667479;
-}
-
-@media (max-width: 1180px) {
-  section#puppy .container {
-    width: 100%;
-    height: 100%;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  section#adoption {
-    display: none;
-  }
-}
-@media (max-width: 834px) {
-  .container {
-    width: 414px;
-  }
-  section#puppy .container {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 36px;
-    padding-top: 20px;
-    background: #fdfdfd;
-    margin: 0 auto;
-  }
-  section#explore {
-    display: none;
-  }
-  section#products {
-    display: none;
-  }
-  section#partners {
-    display: none;
-  }
-  section#adoption {
-    display: none;
-  }
-}
-@media (max-width: 414px) {
-  .container {
-    width: 100%;
-  }
-  section#puppy .container {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 36px;
-    padding-top: 20px;
-    background: #fdfdfd;
-    margin: 0 auto;
-  }
-  section#explore {
-    display: none;
-  }
-  section#products {
-    display: none;
-  }
-  section#partners {
-    display: none;
-  }
-  section#adoption {
-    display: none;
-  }
 }/*# sourceMappingURL=main.css.map */
