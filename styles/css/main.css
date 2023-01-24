@@ -677,7 +677,8 @@ section#explore .pup2 {
   border-bottom-left-radius: 20px;
   bottom: 20px;
 }
-section#explore .pup3 {
+section#explore .pup3,
+section#explore .pup4 {
   display: none;
 }
 
@@ -1456,7 +1457,8 @@ section#knowledge .container .know-2 {
   section#explore {
     overflow: hidden;
   }
-  section#explore .pup1 {
+  section#explore .pup1,
+section#explore .pup4 {
     display: none;
   }
   section#explore .pup2 {
@@ -1589,6 +1591,178 @@ footer#footer {
     width: 414px;
     overflow: auto;
   }
+  header {
+    width: 414px;
+    padding: 10px;
+    position: relative;
+    height: 750px;
+    overflow: hidden;
+    background: linear-gradient(102.87deg, #fceed5 6.43%, #fceed5 78.33%, #ffe7ba 104.24%);
+    border-radius: 0px 0px 40px 40px;
+  }
+  header .log {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    z-index: 3;
+  }
+  header nav {
+    display: none;
+  }
+  header nav .lar {
+    display: none;
+  }
+  header nav .inlar {
+    display: none;
+  }
+  header nav .english {
+    display: none;
+  }
+  header {
+    position: relative;
+  }
+  header .lupa {
+    display: block;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    cursor: pointer;
+  }
+  header .lupa1 {
+    position: absolute;
+    left: 50px;
+    z-index: 3;
+    top: 30px;
+    display: block;
+    cursor: pointer;
+  }
+  header .show1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  header .show2 {
+    position: absolute;
+    left: 360.6px;
+    top: 123px;
+    z-index: 1;
+    width: 20px;
+  }
+  header .show3 {
+    position: absolute;
+    left: 29.22px;
+    bottom: 0px;
+    z-index: 1;
+    width: 380px;
+  }
+  header .show4 {
+    position: absolute;
+    left: 35.67px;
+    bottom: 0px;
+    z-index: 1;
+    width: 600px;
+    height: 290px;
+  }
+  header .show5 {
+    display: none;
+    position: absolute;
+    left: 38.33px;
+    top: 100px;
+    z-index: 1;
+    width: 200px;
+  }
+  header .show6 {
+    position: absolute;
+    left: 62.19px;
+    top: 48px;
+    z-index: 1;
+  }
+  header .show7 {
+    position: absolute;
+    left: 317px;
+    top: 163.64px;
+    z-index: 2;
+  }
+  header .show8 {
+    position: absolute;
+    left: 328px;
+    top: 160.68px;
+    z-index: 1;
+  }
+  header .container {
+    padding-top: 40px;
+    width: 374px;
+    height: 750px;
+    background: transparent;
+    display: grid;
+    grid-template-columns: 100%;
+    position: relative;
+  }
+  header .container .showcase1 {
+    text-align: start;
+    padding-left: 10px;
+  }
+  header .container .showcase1 h1 {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #002a48;
+    z-index: 5;
+  }
+  header .container .showcase1 h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #002a48;
+    z-index: 15;
+    position: relative;
+  }
+  header .container .showcase1 p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #242b33;
+    padding-bottom: 30px;
+  }
+  header .container .showcase1 .botton {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  header .container .showcase1 .botton .button1 {
+    background: transparent;
+    color: #003459;
+    cursor: pointer;
+    width: 153px;
+  }
+  header .container .showcase1 .botton button {
+    width: 153px;
+    height: 48px;
+    color: #fdfdfd;
+    background: #003459;
+    border-radius: 57px;
+    cursor: pointer;
+  }
+  header .container .rasm {
+    width: 344px;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    left: 20px;
+  }
+  header .container .rasm img {
+    width: 344px;
+    height: 293px;
+    position: absolute;
+    z-index: 6;
+    bottom: 0px;
+    right: 100px;
+  }
   section#puppy .container h3 {
     font-size: 79px;
     color: #00171f;
@@ -1667,13 +1841,13 @@ footer#footer {
   }
   section#explore {
     width: 414px;
-    padding: 20px 130px;
+    padding: 20px;
     position: relative;
     overflow: hidden;
   }
   section#explore .container {
-    width: 374px;
-    height: 640px;
+    width: 378px;
+    height: 600px;
     background: transparent;
     display: grid;
     position: relative;
@@ -1689,9 +1863,9 @@ footer#footer {
   }
   section#explore .container .ex2 {
     height: 100%;
-    width: 360px;
+    width: 374px;
     position: relative;
-    left: -70px;
+    left: -20px;
     z-index: 5;
     text-align: center;
   }
@@ -1753,19 +1927,31 @@ footer#footer {
   }
   section#explore .pup2 {
     position: absolute;
-    left: 130px;
+    left: 20px;
     bottom: 0;
     width: 500px;
     z-index: 2;
     border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 85px;
     bottom: 20px;
   }
   section#explore .pup3 {
-    display: block;
     position: absolute;
-    left: 130px;
+    left: 20px;
     top: 20px;
-    z-index: 2;
+    width: 650px;
+    height: 420px;
+    z-index: 1;
+    display: none;
+  }
+  section#explore .pup4 {
+    position: absolute;
+    display: block;
+    top: 20px;
+    left: 18px;
+    z-index: 3;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
   }
   section#products {
     display: none;
